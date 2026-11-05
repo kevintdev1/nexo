@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Nexo">
+  <rect width="64" height="64" rx="16" fill="#1c398e"/>
+  <path d="M19 46V18h5.5l15 18.5V18H45v28h-5.5l-15-18.5V46z" fill="#fafafa"/>
+  <circle cx="45" cy="46" r="4" fill="#ff8904"/>
+</svg>
