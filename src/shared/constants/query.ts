@@ -1,0 +1,4 @@
+const MINUTE_MS = 60 * 1000;
+
+export const DEFAULT_STALE_TIME_MS = 5 * MINUTE_MS;
+export const CATALOG_STALE_TIME_MS = 10 * MINUTE_MS;
