@@ -1,16 +1,17 @@
+import type { IconType } from "react-icons";
 import {
 	LuCalendarDays,
 	LuCircleUser,
 	LuLayoutGrid,
+	LuSquareMenu,
 	LuUniversity,
 } from "react-icons/lu";
 
-export const menuIconMap = {
+export const NAV_ICONS: Readonly<Record<string, IconType>> = {
 	Inicio: LuLayoutGrid,
 	Comunidad: LuCircleUser,
 	"Instituciones educativas": LuUniversity,
 	Torneos: LuCalendarDays,
-	//Estudiantes: GraduationCapIcon,
-	//Eventos: CalendarIcon,
-	//Resultados: BarChartIcon,
 };
+
+export const FALLBACK_NAV_ICON: IconType = LuSquareMenu;
