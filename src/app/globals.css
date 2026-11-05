@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+	--font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+
+	--color-background: #fafafa;
+	--color-foreground: #262626;
+	--color-surface: #ffffff;
+	--color-inverse: #ffffff;
+	--color-overlay: rgb(153 161 175 / 0.5);
+
+	--color-muted: #f3f4f6;
+	--color-muted-foreground: #6a7282;
+	--color-border: #e5e7eb;
+	--color-input: #99a1af;
+	--color-ring: #1c398e;
+
+	--color-primary: #1c398e;
+	--color-primary-foreground: #fafafa;
+	--color-primary-soft: #eff6ff;
+	--color-primary-soft-foreground: #1447e6;
+
+	--color-success: #00a63e;
+	--color-success-foreground: #ffffff;
+	--color-success-soft: #dcfce7;
+	--color-success-soft-foreground: #008236;
+
+	--color-warning-soft: #ffedd4;
+	--color-warning-soft-foreground: #ca3500;
+
+	--color-danger: #e7000b;
+	--color-danger-foreground: #ffffff;
+	--color-danger-soft: #fef2f2;
+	--color-danger-soft-foreground: #c10007;
+
+	--color-accent: #ff8904;
+	--color-accent-foreground: #ffffff;
+
+	--color-info: #2b7fff;
+	--color-info-foreground: #ffffff;
+
+	--spacing-sidebar: 290px;
+	--spacing-sidebar-collapsed: 90px;
+}
+
+@layer base {
+	body {
+		@apply bg-background font-sans text-foreground text-sm;
+	}
+}
